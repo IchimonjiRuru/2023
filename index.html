@@ -37,10 +37,18 @@
         text-align:left;font-weight:bold;border-bottom:1px dashed #fa8072;
       }
     
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
- }
+ul, ol {
+  background: #fcfcfc;/*背景色*/
+  padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
+  border: solid 3px gray;/*線の種類 太さ 色*/
+}
+
+ul li, ol li {
+  line-height: 1.5; /*文の行高*/
+  padding: 0.5em 0; /*前後の文との余白*/
+}
+<!--https://www.sejuku.net/blog/56177 -->
+     
     blockquote {
       margin: 1em 0 1em 1.7em;
       padding-left: 1em;
