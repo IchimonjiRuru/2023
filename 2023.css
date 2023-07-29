@@ -1,0 +1,53 @@
+  body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+  h1 {
+        color:#333333;
+        background-color:#ffffff;
+        font-size:18px;
+        padding:5px;
+        line-height:1.5;
+        text-align:left;
+        font-weight:bold;
+        border-bottom:1px solid #eaa580
+    } 
+      h2, h3, h4 {
+        color:#333333;
+        background-color:#ffffff;
+        font-size:18px;padding:5px;
+        line-height:1.5;
+        text-align:left;font-weight:bold;border-bottom:1px dashed #fa8072;
+      }
+
+ul, ol {
+  background: #fcfcfc;/*背景色*/
+  padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
+  border: solid 3px gray;/*線の種類 太さ 色*/
+}
+
+ul li, ol li {
+  line-height: 1.5; /*文の行高*/
+  padding: 0.5em 0; /*前後の文との余白*/
+}
+<!--https://www.sejuku.net/blog/56177 -->
+
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      font-size:8px;background:#f9edec;
+    }
+    a{text-decoration:none;
+    }
+
+    a:hover{text-decoration:none; 
+    color:#710f04;
+    }
